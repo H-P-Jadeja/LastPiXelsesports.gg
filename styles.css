@@ -31,6 +31,7 @@ a{
 .logo {
     height: 50px;
     border-radius: 50%;
+    
 }
 
 nav {
@@ -118,7 +119,8 @@ h2 {
 }
 
 .jersey-image:hover {
-    transform: scale(1.05);
+    transform: scale(1.10);
+    transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #visitorForm {
